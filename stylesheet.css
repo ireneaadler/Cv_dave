@@ -2,12 +2,12 @@
 	font-family: 'Arial', 'Helvetica', sans-serif;
 }
 
-h3 {
+h1, h3, p {
 	padding: 0;
 	margin: 0;
 }
 
-h1, h2, h3, h4 {
+h1, h2, h3, h4, thead a, thead span {
 	color: #0080ff;
 }
 
@@ -15,13 +15,18 @@ body {
 	background-color: #b7b7b7;
 }
 
-#content {
-	padding-top: 100px;
+
+#experience td {
+	max-width: 300px;
 }
 
-/* table, th, td {
+#head-space {
+	height: 100px;
+}
+
+/*  table, th, td {
 	border: 1px solid black;
-} */
+}  */
 
 /* 
 	MAIN TABLE
@@ -29,7 +34,14 @@ body {
 
 #main-table {
 	background-color: #f1f1f1;
+	padding: 30px;
+	margin: 30px;
 }
+
+thead h1 {
+	font-size: 3.5em;
+}
+
 
 /* 
 	EXPERIENCE
@@ -53,12 +65,8 @@ body {
 
 
 .space {
-	height: 50px;
+	height: 150px;
 
-}
-
-td {
-	max-width: 350px;
 }
 
 .dave {
@@ -76,14 +84,6 @@ td {
 	SKILLS
 */
 
- /* .skills {
- 	position: relative;
- }
- 
- .skills table {
- 	position: absolute;
- 	top: 0;
- }   */
 
 /* All Progress Bars */
 progress {
@@ -110,7 +110,44 @@ progress:not([value]) {
 }
 
 progress {
-	backgound-color: #0080ff;
+	color: #0080ff;
 	height: 10px;
 	border: none;
 }
+
+
+
+
+/*
+	WORK/PLAY BALANCE
+*/
+
+#play {
+	position: relative;
+}
+
+
+#play #right {
+	text-align: right;
+}
+.cube {
+	width: 100px;
+	height: 100px;
+	background-color: #0080ff;
+	opacity: 0.8;
+	position: absolute;
+	top: 60px;
+	transform: rotate(-66deg);
+}
+
+#cube1 {
+	left: 200px;
+}
+
+#cube2 {
+	left: 260px;
+}
+
+
+
+
