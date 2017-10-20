@@ -1,7 +1,56 @@
-table, th, td {
-
-	border: 1px solid black;
+* {
+	font-family: 'Arial', 'Helvetica', sans-serif;
 }
+
+h3 {
+	padding: 0;
+	margin: 0;
+}
+
+h1, h2, h3, h4 {
+	color: #0080ff;
+}
+
+body {
+	background-color: #b7b7b7;
+}
+
+#content {
+	padding-top: 100px;
+}
+
+/* table, th, td {
+	border: 1px solid black;
+} */
+
+/* 
+	MAIN TABLE
+*/
+
+#main-table {
+	background-color: #f1f1f1;
+}
+
+/* 
+	EXPERIENCE
+*/
+
+#experience tr {
+	display: flex;
+	align-items: flex-start;
+	padding: 5px 0;
+}
+
+#experience td {
+	padding-left: 20px;
+	
+}
+
+#experience span {
+	font-weight: bold;
+
+}
+
 
 .space {
 	height: 50px;
@@ -20,4 +69,48 @@ td {
 
 	width: 100px;
 	text-align: center;
+}
+
+
+/* 
+	SKILLS
+*/
+
+ /* .skills {
+ 	position: relative;
+ }
+ 
+ .skills table {
+ 	position: absolute;
+ 	top: 0;
+ }   */
+
+/* All Progress Bars */
+progress {
+    /* Reset the default appearance */
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+/* Determinate */
+progress[value] {
+    /* Reset the default appearance */
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+/* Indeterminate */
+progress:not([value]) {
+    /* Reset the default appearance */
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+progress {
+	backgound-color: #0080ff;
+	height: 10px;
+	border: none;
 }
