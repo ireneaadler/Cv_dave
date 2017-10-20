@@ -1,0 +1,23 @@
+table, th, td {
+
+	border: 1px solid black;
+}
+
+.space {
+	height: 50px;
+
+}
+
+td {
+	max-width: 350px;
+}
+
+.dave {
+	margin-bottom: 0;
+}
+
+.date {
+
+	width: 100px;
+	text-align: center;
+}
